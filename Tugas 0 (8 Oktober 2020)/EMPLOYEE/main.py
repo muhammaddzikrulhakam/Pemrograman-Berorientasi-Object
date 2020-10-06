@@ -2,7 +2,7 @@ FROM EMPLOYEE IMPORT EMPLOYEE
 
 
 def main():
-	humans = [Employee("Arief", "Baihaqy", 5000000), Employee("Imam", "Abil", 10000000)]
+	humans = [Employee("Dzikrul", "Hakam", 5000000), Employee("Muhammad", "Dzikrul", 10000000)]
 	for human in humans:
 		print("Gaji anda perbulan sekarang adalah", human.monthly_salary)
 
